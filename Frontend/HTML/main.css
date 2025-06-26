@@ -1,7 +1,6 @@
-html {
-  font-size: 22px;
+h1 {
+  font-size: calc(1.2em + 3vw);
 }
-body {
-  background-color: #333;
-  color: whitesmoke;
+p {
+  font-size: calc(1em + 1vw);
 }
