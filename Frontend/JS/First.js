@@ -16,3 +16,5 @@ console.log(name);
 let love;
 love = "Пчелка"; // изменили значение переменной
 console.log(love);
+
+// Остановился на 14:20
