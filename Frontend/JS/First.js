@@ -41,7 +41,8 @@ const s = 'любовь, котик, мили бро, красота, восто
 // console.log(s.length);
 // console.log(s.toUpperCase());
 // console.log(s.toLowerCase());
-// console.log(s.indexOf('world')); // index of substring
+// console.log(s.indexOf('world')); // index of substring]
 // console.log(s.substring(0, 5));
 console.log('Пчелка это:')
 console.log(s.split(", ")); // split string by substring
+//test
