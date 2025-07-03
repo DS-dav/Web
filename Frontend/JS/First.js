@@ -37,12 +37,92 @@
 // // Template Literals (Шаблонные строки) - новый способ
 // console.log(`My love is ${name3}, she is ${age} years old`);
 
-const s = 'любовь, котик, мили бро, красота, восторг';
-// console.log(s.length);
-// console.log(s.toUpperCase());
-// console.log(s.toLowerCase());
-// console.log(s.indexOf('world')); // index of substring]
-// console.log(s.substring(0, 5));
-console.log('Пчелка это:')
-console.log(s.split(", ")); // split string by substring
-//test
+// const s = ['любовь', 'котик', 'мили бро', 'красота', 'восторг'];
+// // console.log(s.length);
+// // console.log(s.toUpperCase());
+// // console.log(s.toLowerCase());
+// // console.log(s.indexOf('world')); // index of substring]
+// // console.log(s.substring(0, 5));
+// // console.log(`Пчелка это: ${s}`)
+// // //console.log(s.split(", ")); // split string by substring
+// // console.log(s);
+// // s.push('навсегда');
+// // console.log(s);
+// const bee ={
+//     name: 'Пчелка',
+//     age: 23,
+//     advantages: ['любовь', 'котик', 'мили бро', 'красота', 'восторг'],
+// }
+
+// console.log(bee.advantages[2]);
+// const {age} = bee;
+// console.log(age);
+// bee.boyfriend = 'Котик';
+// console.log(bee);
+
+// //Arrays
+// const todos = [
+//     {
+//     id: 1,
+//     text: 'Стать самым лучшим для пчелки',
+//     isCompleted: false
+//     },
+//     {
+//     id: 2,
+//     text: 'Начать изучать JavaScript',
+//     isCompleted: true
+//     },
+//     {
+//     id: 3,
+//     text: 'Создать лучшую семью для пчелки',
+//     isCompleted: false
+//     }
+// ]
+// console.log('--- Arrays ---');
+// console.log(todos);
+// console.log(todos[0]);
+
+// console.log('--- JSON ---');
+// const todosJSON = JSON.stringify(todos);
+// console.log(todosJSON);
+
+// //For Loop
+// console.log('--- For Loop ---');
+// for (let i=0; i < todos.length; i++) {
+//     console.log(`Задача ${i+1}: ${todos[i].text}`)
+// }
+
+// //While Loop
+// console.log('--- While Loop ---');
+// let i = 0;
+// while (i < todos.length) {
+//     console.log(`Задача ${i+1}: ${todos[i].text}`);
+//     i++;
+//}
+// for (let todo of todos) {
+//     console.log(todo);
+// }
+
+
+//For Each, map, filter
+// console.log('--- For Each ---');
+// todos.forEach(function(todo) {
+//     console.log(todo.text);
+// })
+// console.log('--- Map ---');
+// const todoText = todos.map(function(todo) {
+//     return todo.text;
+// })
+
+// console.log(todoText);
+
+// console.log('--- Filter ---');
+// const todoisComlited = todos.filter(function(todo) {
+//     return todo.isCompleted === false;
+// }).map(function(todo) {
+//     return todo.text;
+// })
+// console.log(todoisComlited);
+
+
+// Conditional Statements (Условные операторы if, else if, else)
