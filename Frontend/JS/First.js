@@ -126,3 +126,43 @@
 
 
 // Conditional Statements (Условные операторы if, else if, else)
+
+// const x = 11;
+// if (x === 10) { //если data types different, то для true можно использовать ==. Если нужно строгое сравнение, то используйте ===
+//     console.log('x равен 10');
+// } else if (x > 10) {
+//     console.log('x больше 10');
+// } else {
+//     console.log('x меньше 10');
+// }
+
+// Logical Operators (Логические операторы: &&, ||)
+// const x = 5;
+// const y = 10;
+// if (x > 4 || y > 10) {
+//     console.log('x больше 4 or y больше 10');
+// }
+// const x = 5;
+// const y = 10;
+// if (x > 4 && y >= 10) {
+//     cownsole.log('x больше 4 and y больше 10');
+// }
+
+
+// Ternary Operator (Тернарный оператор)
+// const x = 11;
+// const color = x > 10 ? 'blue' : 'yellow';
+// console.log(color);
+
+// //switches
+// switch (color) {
+//     case 'yellow':
+//         console.log('Пчелка победила!');
+//         break;
+//     case 'blue':
+//         console.log('Котик победил!');
+//         break;
+//     default:
+//         console.log('Ничья!');
+//         break;
+// }
